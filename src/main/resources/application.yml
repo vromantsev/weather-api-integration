@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active: integration
+  datasource:
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+
+weather-api:
+  key: <YOUR-API-KEY>
+  url: https://api.weatherapi.com/v1/
+  current-api-format: current.json
+  forecast-api-format: forecast.json
+  search-api-format: search.json
+  astronomy-api-format: astronomy.json
+  timezone-api-format: timezone.json
+
